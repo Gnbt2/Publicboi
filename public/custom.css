@@ -1,0 +1,41 @@
+.wave {
+    height: 200px;
+    width: 500px;
+    position: absolute;
+}
+body {
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+    border: 1px solid aqua;
+}
+.main-ninja {
+    position: absolute;
+    bottom: 10px;
+    height: 159px;
+    width: 123px;
+}
+.laser {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+.outer {
+    position: absolute;
+    animation: spin 0.1s infinite linear;
+    
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}   
+
+
